@@ -60,10 +60,12 @@ nav ul li:hover{
     margin-top: 4%;
     margin-left:10%;
     text-align: left;
+
 }
 .aboutme{
     margin-right: 5%;
     width: 70%;
+    height: 20%;
 }
 .aboutme a{
     color: black;
@@ -74,6 +76,7 @@ nav ul li:hover{
 }
 .image1{
     width: 30%;
+    height: 50%;
     margin-right: 5%;
 }
 
@@ -82,19 +85,19 @@ nav ul li:hover{
 }
 
 #linkedin{
-    width: 4.5rem;
+    width: 2.5rem;
 }
 #instagram{
-    width: 4.5rem;
+    width: 2.5rem;
 }
 #github{
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
 }
 .contact{
     display: flex;
-    width: 25%;
-    margin-left: 9%;
+    justify-content: space-around;
+    width: 40%;
     align-items: center;
 }
 .contact img{
@@ -107,7 +110,7 @@ nav ul li:hover{
     display: flex;
     width: 80%;
     margin-top: 4%;
-    margin-left:11%;
+    margin-left:10%;
     text-align: left;  
 }
 .proyects a{
@@ -126,7 +129,7 @@ nav ul li:hover{
     display: flex;
     width: 80%;
     margin-top: 2%;
-    margin-left:11%;
+    margin-left:10%;
 }
 .skills img{
     display: inline-flex;
