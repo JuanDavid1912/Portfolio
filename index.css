@@ -50,6 +50,13 @@ nav ul li:hover{
 .language{
     display: inline;
 }
+.language a{
+    text-decoration: none;
+    color: white;
+}
+.language a:hover{
+    color: red;
+}
 .navigate, .language{
     margin: 1.5rem;
 }
