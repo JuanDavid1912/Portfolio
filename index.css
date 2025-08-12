@@ -163,3 +163,176 @@ nav ul li:hover{
 .end p{
     margin-top: 10%;
 }
+
+
+@media (max-width: 980px) {
+    html{
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5rem;
+    }
+    body,html{
+        margin: 0;
+        padding: 0;
+    }
+
+    nav{
+        display:flex;
+        align-items: center;
+        background-color: black;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li{
+        display: inline;
+        color: white;
+        margin:5px;
+    }
+
+    nav ul li:hover{
+    cursor: pointer;
+    color:red;
+    }
+
+    .language_list{
+        margin-left: auto;
+        margin-right: 1%;
+    }
+    .language_list li{
+        margin: 5px;
+    }
+
+    .navigate{
+        display: inline;
+        margin-left: 1%;
+    }
+    .language{
+        display: inline;
+    }
+    .language a{
+        text-decoration: none;
+        color: white;
+    }
+    .language a:hover{
+        color: red;
+    }
+    .navigate, .language{
+        margin: 1.5rem;
+    }
+    .main{
+        display: block;
+        width: 80%;
+        justify-content: center;
+        margin-top: 4%;
+        margin-left:10%;
+        text-align: left;
+    }
+    .aboutme{
+        display: block;
+        margin-right: 5%;
+        width: 70%;
+        height: 20%;
+    }
+    
+    .aboutme a{
+        color: black;
+    }
+    .aboutme a:hover{
+        font-weight: 0;
+        color:red;
+    }
+    .image1{
+        display: block;
+        width: 40%;
+        margin-top: 90%;
+        margin-right: 5%;
+        padding-top: 5%;
+        height: 4px;
+        height: 500px;
+    }
+
+    .image1 img{
+        width: 100%;
+    }
+
+    #linkedin{
+        width: 3.5rem;
+    }
+    #instagram{
+        width: 3.5rem;
+    }
+    #github{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    .contact{
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        align-items: center;
+    }
+    .contact img{
+        display: inline;
+        margin: 20%;
+        width: 100%;
+    }
+
+    .experience{
+        display: flex;
+        width: 80%;
+        margin-top: 4%;
+        margin-left:10%;
+        text-align: left;  
+    }
+    .proyects a{
+        text-decoration: none;
+        cursor: pointer;
+        color: black;
+    }
+    .proyects a:hover{
+        color: red;
+    }
+    .experience ul{
+        list-style-type: square;
+    }
+
+    .knowledge{
+        display: flex;
+        width: 80%;
+        margin-top: 2%;
+        margin-left:10%;
+    }
+    .skills img{
+        display: inline-flex;
+        margin: 2%;
+        width: 5%;
+    }
+    .end{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .footer-container{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        align-items: baselines;
+    }
+    .footer-container p{
+        display: inline;
+    }
+    .final-text{
+        margin-bottom: 5%;
+    }
+    .end p{
+        margin-top: 10%;
+    }
+}
