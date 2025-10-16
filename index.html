@@ -2,8 +2,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Mi Portfolio</title>
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="./css/index.css">
         <link rel="icon" type="image/png" href="./img/Capsule_Corp_Logo.svg.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,14 +11,13 @@
     <body>
         <nav>
             <ul class="navigate-list">
-                <li class="navigate">About Me</li>
-                <li class="navigate">Proyects</li>
-                <li class="navigate">Games</li>
+                <li class="navigate"><a href="index.html">About Me</a></li>
+                <li class="navigate"><a href="#proyects">Proyects</a></li>
             </ul>
             <ul class="language_list">
-                <li class="language"><a href="languages/en.html">EN</a></li>
+                <li class="language"><a href="./html/en.html">EN</a></li>
                 <li class="language"><a href="index.html">ES</a></li>
-                <li class="language"><a href="languages/de.html">DE</a></li>
+                <li class="language"><a href="./html/de.html">DE</a></li>
             </ul>
        </nav> 
        <div class="container">
@@ -57,10 +55,11 @@
        </div>
        
        <div class="experience">
-        <div class="proyects">
+        <div id="proyects">
            <h2>Proyects</h2> 
             <ul>
                 <li><a href="https://github.com/JuanDavid1912/DrowsinessDetection/tree/raspberry_pi" target="_blank">Drowsiness Detector</a></li>
+                <li><a href="https://github.com/JuanDavid1912/Film-Finder" target="_blank">Film-Finder</a></li>
             </ul>
         </div>
        </div>
@@ -89,5 +88,5 @@
     </footer>
 
      <script src="main.js">
-    </script>
+     </script>
 </html>

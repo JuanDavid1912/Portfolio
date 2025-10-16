@@ -3,6 +3,7 @@
 html{
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
+    scroll-behavior: smooth;
 }
 body,html{
     margin: 0;
@@ -47,6 +48,13 @@ nav ul li:hover{
 .navigate{
     display: inline;
     margin-left: 1%;
+}
+.navigate a:hover{
+    color: red;
+}
+.navigate a{
+    text-decoration: none;
+    color: white;
 }
 .language{
     display: inline;
@@ -97,19 +105,20 @@ nav ul li:hover{
 }
 
 #linkedin{
-    width: 2.5rem;
+    width: 4rem;
 }
 #instagram{
-    width: 2.5rem;
+    width: 4.7rem;
 }
 #github{
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 .contact{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    width: 40%;
+    width: 90%;
     align-items: center;
 }
 .contact img{
@@ -125,12 +134,12 @@ nav ul li:hover{
     margin-left:10%;
     text-align: left;  
 }
-.proyects a{
+#proyects a{
     text-decoration: none;
     cursor: pointer;
     color: black;
 }
-.proyects a:hover{
+#proyects a:hover{
     color: red;
 }
 .experience ul{
